@@ -1,0 +1,2 @@
+D:\KAITECH\00- Assignment\A7\UMS\UMS\obj\Debug\UMS.csproj.AssemblyReference.cache
+D:\KAITECH\00- Assignment\A7\UMS\UMS\obj\Debug\UMS.csproj.CoreCompileInputs.cache
