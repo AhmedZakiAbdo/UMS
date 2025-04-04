@@ -11,6 +11,7 @@ namespace UMS.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string Location { get; set; }
+        public char Classification { get; set; }
         public List<College> Colleges { get; set; } = new List<College>();
 
         public University(int id, string name, string location)

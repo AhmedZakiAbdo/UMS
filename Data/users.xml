@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Users>
+	<User>
+		<Id>1</Id>
+		<FirstName>Default</FirstName>
+		<LastName>Admin</LastName>
+		<Age>30</Age>
+		<Email>admin@example.com</Email>
+		<Password>jGl25bVBBBW96Qi9Te4V37Fnqchz/Eu4qB9vKrRIqRg=</Password>
+		<Role>Admin</Role>
+	</User>
+</Users>
