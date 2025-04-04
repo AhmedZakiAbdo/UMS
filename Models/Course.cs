@@ -11,7 +11,7 @@ namespace UMS.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public int Credits { get; set; }
-        public Department Department { get; set; } // Reference to its department
+        public Department Department { get; set; } 
         public List<Professor> Instructors { get; set; } = new List<Professor>();
 
         public Course(int id, string name, int credits, Department department)

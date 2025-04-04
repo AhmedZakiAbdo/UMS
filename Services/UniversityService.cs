@@ -20,9 +20,13 @@ namespace UMS.Services
         }
         private static readonly string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "../../Data", "universities.xml");
 
-        public static int GetUniversityId(string universityName)
+        public static University GetUniversity(string universityName)
         {
-            return GetUniversities().Where(uni => uni.Name.Equals(universityName)).Select(uni => uni.Id).FirstOrDefault(); 
+            return GetUniversities().Where(uni => uni.Name.Equals(universityName)).FirstOrDefault(); 
+        }
+        public static University GetUniversity(int universityId)
+        {
+            return GetUniversities().Where(uni => uni.Id == universityId).FirstOrDefault();
         }
         public static void AddUniversity(User loggedInUser, University university)
         {
@@ -143,6 +147,5 @@ namespace UMS.Services
                 Console.WriteLine("University not found.");
             }
         }
-
     }
 }
